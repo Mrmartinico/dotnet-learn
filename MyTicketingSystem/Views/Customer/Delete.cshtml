@@ -1,0 +1,232 @@
+﻿@model MyRepository.Customer
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NationalityCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NationalityCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Photo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bdx_Modibus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bdx_Modibus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vcub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vcub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bdx_NewsletterEnterprise)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bdx_NewsletterEnterprise)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bdx_Newsletter1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bdx_Newsletter1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bdx_Newsletter2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bdx_Newsletter2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bdx_Newsletter3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bdx_Newsletter3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AllowPhotoCapture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AllowPhotoCapture)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastActivityDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastActivityDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InsDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InsDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InsOperId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InsOperId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModOperId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModOperId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerType.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerType.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaritalStatusType.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaritalStatusType.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PreferredContactType.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PreferredContactType.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SchoolLevel.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SchoolLevel.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.School.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.School.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PeopleTitleType.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PeopleTitleType.Code)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

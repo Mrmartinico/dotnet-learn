@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5965f54b80b342dcb3d7d2fe722d6f4b" Name="Diagram1">
+        <EntityTypeShape EntityType="MyTicketingModel.AdditionalInformation_Category" Width="1.5" PointX="3" PointY="125.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AdditionalInformation_Value" Width="1.5" PointX="3" PointY="143" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AddressType" Width="1.5" PointX="9" PointY="148.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Alarm" Width="1.5" PointX="33.75" PointY="130.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AlarmMessage" Width="1.5" PointX="31.5" PointY="101.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AlarmSeverity" Width="1.5" PointX="29.25" PointY="100.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AlarmStatus" Width="1.5" PointX="31.5" PointY="97.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AlarmType" Width="1.5" PointX="29.25" PointY="104.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AnnexProductType" Width="1.5" PointX="0.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AsyncTaskInfo" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.AuditLogHeader" Width="1.5" PointX="22.5" PointY="124.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.BanknoteType" Width="1.5" PointX="43.25" PointY="134.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.BanknoteTypeSale" Width="1.5" PointX="45.5" PointY="144" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.BlackList" Width="1.5" PointX="22.5" PointY="139.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.BlackListReason" Width="1.5" PointX="20.25" PointY="156.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.BlackListRestoreReason" Width="1.5" PointX="20.25" PointY="160.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Calendar" Width="1.5" PointX="1.5" PointY="168.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CalendarItem" Width="1.5" PointX="3.75" PointY="168.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Card" Width="1.5" PointX="8.25" PointY="130.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CardContractStatus" Width="1.5" PointX="14.25" PointY="101.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CardImageItem" Width="1.5" PointX="16.5" PointY="125.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CardProfile" Width="1.5" PointX="19.5" PointY="138.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CardStatus" Width="1.5" PointX="6" PointY="101.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CardType" Width="1.5" PointX="6" PointY="105.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CardTypeMediaType" Width="1.5" PointX="8.25" PointY="109.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CashBox" Width="1.5" PointX="15" PointY="98.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CoinTypeSale" Width="1.5" PointX="30" PointY="163.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Company" Width="1.5" PointX="1.5" PointY="111.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CompanyAdditionalInformation" Width="1.5" PointX="5.25" PointY="139.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CompanyBankAccount" Width="1.5" PointX="3.75" PointY="112.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CompanyPreferredContact" Width="1.5" PointX="5.25" PointY="143.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ContactType" Width="1.5" PointX="9" PointY="122.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Context" Width="1.5" PointX="28.5" PointY="94.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Control" Width="1.5" PointX="19.5" PointY="128.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ControlStatus" Width="1.5" PointX="17.25" PointY="113.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ControlType" Width="1.5" PointX="17.25" PointY="116.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Country" Width="1.5" PointX="8.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Customer" Width="1.5" PointX="3" PointY="129.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Customer_OrderAddress" Width="1.5" PointX="17.25" PointY="152" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerAdditionalInformation" Width="1.5" PointX="5.25" PointY="127.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerAddress" Width="1.5" PointX="11.25" PointY="132.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerBankAccount" Width="1.5" PointX="5.25" PointY="156.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerCompany" Width="1.5" PointX="5.25" PointY="162.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerContactEmail" Width="1.5" PointX="11.25" PointY="127.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerContactPhone" Width="1.5" PointX="11.25" PointY="139.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerCustGroup" Width="1.5" PointX="8.25" PointY="126.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerDocument" Width="1.5" PointX="14.25" PointY="134" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerGroup" Width="1.5" PointX="6" PointY="119.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerNote" Width="1.5" PointX="14.25" PointY="129" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerPayer" Width="1.5" PointX="7.5" PointY="144" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerProfessionalCategory" Width="1.5" PointX="14.25" PointY="138.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerProfile" Width="1.5" PointX="14.25" PointY="142.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerRelation" Width="1.5" PointX="14.25" PointY="123.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.CustomerType" Width="1.5" PointX="0.75" PointY="125.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Depositary" Width="1.5" PointX="15" PointY="118.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Device" Width="1.5" PointX="17.25" PointY="131.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DeviceConfigParam" Width="1.5" PointX="27.75" PointY="125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DeviceConfiguration" Width="1.5" PointX="25.5" PointY="127.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DeviceParam" Width="1.5" PointX="25.5" PointY="100.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DeviceParamType" Width="1.5" PointX="23.25" PointY="101.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DeviceSubType" Width="1.5" PointX="15" PointY="113" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DeviceType" Width="1.5" PointX="12.75" PointY="112.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.DuplicataReason" Width="1.5" PointX="6" PointY="109.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.EquipmentGroup" Width="1.5" PointX="15" PointY="150.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.EquipmentGroupType" Width="1.5" PointX="12.75" PointY="151.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Error" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ErrorDescription" Width="1.5" PointX="5.25" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ErrorReasonWriteOnMedia" Width="1.5" PointX="25.5" PointY="120.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ExportedFile" Width="1.5" PointX="39" PointY="129.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ExternalCodePrice" Width="1.5" PointX="0.75" PointY="78.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItem" Width="1.5" PointX="3" PointY="92" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemCardType" Width="1.5" PointX="8.25" PointY="99" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemCustomer" Width="1.5" PointX="5.25" PointY="123.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemDescription" Width="1.5" PointX="5.25" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemDeviceSubType" Width="1.5" PointX="17.25" PointY="100.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemDeviceType" Width="1.5" PointX="20" PointY="104" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemFineReason" Width="1.5" PointX="35" PointY="106.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemPaymentMethod" Width="1.5" PointX="43.25" PointY="118" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemProfile" Width="1.5" PointX="22.5" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareProductItemReduction" Width="1.5" PointX="8.25" PointY="95.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareStop" Width="1.5" PointX="12.75" PointY="154.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareVersion" Width="1.5" PointX="0.75" PointY="84.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FareZone" Width="1.5" PointX="24" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FileType" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Fine" Width="1.5" PointX="35" PointY="147.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FineActor" Width="1.5" PointX="32.75" PointY="170.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FineActorType" Width="1.5" PointX="30.5" PointY="169.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FineAddress" Width="1.5" PointX="30.5" PointY="172.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FineCancellationReason" Width="1.5" PointX="32.75" PointY="163.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FineReason" Width="1.5" PointX="32.75" PointY="121.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FineStatus" Width="1.5" PointX="32.75" PointY="177" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Function" Width="1.5" PointX="31.75" PointY="89" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.FunctionDeviceType" Width="1.5" PointX="34" PointY="101.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Gemalto" Width="1.5" PointX="24.75" PointY="140.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GemaltoConfigurationType" Width="1.5" PointX="22.5" PointY="120" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GemaltoErrorType" Width="1.5" PointX="22.5" PointY="156.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GemaltoExportStatus" Width="1.5" PointX="22.5" PointY="160" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Gender" Width="1.5" PointX="0.75" PointY="134.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GeographicalRestriction" Width="1.5" PointX="0.75" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GreenList" Width="1.5" PointX="22.5" PointY="132.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GreenListErrorOnMedia" Width="1.5" PointX="27.75" PointY="137.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GreyList" Width="1.5" PointX="25.5" PointY="132.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GreyListActionType" Width="1.5" PointX="23.25" PointY="116.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GreyListErrorOnMedia" Width="1.5" PointX="30.75" PointY="137.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GreyListReason" Width="1.5" PointX="23.25" PointY="113" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.GroupType" Width="1.5" PointX="3.75" PointY="119.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.HighCapacityReload" Width="1.5" PointX="15" PointY="90.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ImportedFile" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.IncompatibilityMatrix" Width="1.5" PointX="5.25" PointY="90" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Installment" Width="1.5" PointX="40.25" PointY="148.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentConfiguration" Width="1.5" PointX="38" PointY="159" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentDetail" Width="1.5" PointX="42.5" PointY="148.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentPlanStatus" Width="1.5" PointX="38" PointY="153.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentRejectReason" Width="1.5" PointX="40.25" PointY="155.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentRenewed" Width="1.5" PointX="45.5" PointY="149.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentStatus" Width="1.5" PointX="40.25" PointY="159.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InstallmentStatusReason" Width="1.5" PointX="40.25" PointY="162.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.InventoryItem" Width="1.5" PointX="30.5" PointY="108.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Itinerary" Width="1.5" PointX="17.25" PointY="93.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ItineraryStop" Width="1.5" PointX="19.5" PointY="118.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Language" Width="1.5" PointX="3" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Line" Width="1.5" PointX="12.75" PointY="91.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.LineTopology" Width="1.5" PointX="15" PointY="93.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Location" Width="1.5" PointX="28.25" PointY="118.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.MaintenanceAction" Width="1.5" PointX="31.5" PointY="93.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.MaritalStatusType" Width="1.5" PointX="0.75" PointY="128.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.MediaType" Width="1.5" PointX="6" PointY="113.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.NoteType" Width="1.5" PointX="12" PointY="120.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Operator" Width="1.5" PointX="16.5" PointY="141.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OperatorOperatorProfile" Width="1.5" PointX="18.75" PointY="148.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OperatorPassword" Width="1.5" PointX="14.25" PointY="170.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OperatorProfile" Width="1.5" PointX="16.5" PointY="169.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OperatorProfileOperatorRole" Width="1.5" PointX="35.75" PointY="121.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OperatorRole" Width="1.5" PointX="15" PointY="85.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OperatorStation" Width="1.5" PointX="24.75" PointY="147.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Order" Width="1.5" PointX="19.5" PointY="142.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Order_detail" Width="1.5" PointX="21.75" PointY="146.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Order_status" Width="1.5" PointX="17.25" PointY="157.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OrderDetail_Document" Width="1.5" PointX="27" PointY="150.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OriginDestinationPrice" Width="1.5" PointX="20" PointY="113.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.OriginDestinationRestriction" Width="1.5" PointX="26" PointY="114.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Payment" Width="1.5" PointX="43.25" PointY="143.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PaymentMethod" Width="1.5" PointX="41" PointY="144.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PaymentOrder" Width="1.5" PointX="7.5" PointY="161.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PeopleTitleType" Width="1.5" PointX="0.75" PointY="138.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PeriodType" Width="1.5" PointX="1.5" PointY="61.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PostPayment" Width="1.5" PointX="43.25" PointY="138.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PostPaymentConfig" Width="1.5" PointX="41" PointY="124.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PostPaymentRule" Width="1.5" PointX="43.25" PointY="124.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PreferredContactType" Width="1.5" PointX="0.75" PointY="142" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Price" Width="1.5" PointX="0.75" PointY="94.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Product" Width="1.5" PointX="0.75" PointY="104.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ProductFamily" Width="1.5" PointX="1.5" PointY="153.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ProfessionalCategoryType" Width="1.5" PointX="12" PointY="145.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Profile" Width="1.5" PointX="17.25" PointY="105" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ProfileCard" Width="1.5" PointX="19.5" PointY="124.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ProfileDescription" Width="1.5" PointX="20.5" PointY="92.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ProfileType" Width="1.5" PointX="15" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ProfileValidityType" Width="1.5" PointX="15" PointY="109" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Provider" Width="1.5" PointX="6" PointY="132.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.PublishedContext" Width="1.5" PointX="30.75" PointY="131.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Reduction" Width="1.5" PointX="6" PointY="85" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Refund" Width="1.5" PointX="30.75" PointY="126.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.RegularizedFine" Width="1.5" PointX="21.75" PointY="151.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.RelationType" Width="1.5" PointX="12" PointY="124.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Revenue" Width="1.5" PointX="5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.RevenueStatus" Width="1.5" PointX="2.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.RoundType" Width="1.5" PointX="35.75" PointY="159.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Sale" Width="1.5" PointX="27.75" PointY="142.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SaleDetail" Width="1.5" PointX="38" PointY="137.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SaleStatus" Width="1.5" PointX="25.5" PointY="124" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SaleType" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.School" Width="1.5" PointX="0.75" PointY="145.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SchoolLevel" Width="1.5" PointX="0.75" PointY="149.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SchoolType" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Session" Width="1.5" PointX="28.5" PointY="129.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionAction" Width="1.5" PointX="33.75" PointY="125.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionActionType" Width="1.5" PointX="31.5" PointY="117.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionCashBoxRemove" Width="1.5" PointX="30.75" PointY="150" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionHighCapacityReload" Width="1.5" PointX="30.75" PointY="154.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionMaintenance" Width="1.5" PointX="33.75" PointY="135.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionRecycleReload" Width="1.5" PointX="30.75" PointY="159" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionStatus" Width="1.5" PointX="26.25" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SessionType" Width="1.5" PointX="26.25" PointY="154" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Station" Width="1.5" PointX="10.5" PointY="156" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Status" Width="1.5" PointX="1.5" PointY="70.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockEntity" Width="1.5" PointX="30.5" PointY="142.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockEntityDetail" Width="1.5" PointX="32.75" PointY="143.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockEntityType" Width="1.5" PointX="28.25" PointY="114.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockImportedFile" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockItem" Width="1.5" PointX="30.5" PointY="122.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockMovement" Width="1.5" PointX="35.75" PointY="140.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockMovementStatus" Width="1.5" PointX="33.5" PointY="155.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.StockType" Width="1.5" PointX="28.25" PointY="109.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Stop" Width="1.5" PointX="15" PointY="155.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SupportDocument" Width="1.5" PointX="24.75" PointY="158.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TaskStatus" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Tax" Width="1.5" PointX="1.5" PointY="65.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TemporalRestriction" Width="1.5" PointX="0.75" PointY="163.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Ticket" Width="1.5" PointX="41" PointY="137.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TicketPrejudice" Width="1.5" PointX="38" PointY="147.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TicketPrejudiceStatus" Width="1.5" PointX="35.75" PointY="155.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TimeRange" Width="1.5" PointX="3.75" PointY="172.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TimeTable" Width="1.5" PointX="1.5" PointY="172.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Topology" Width="1.5" PointX="12.75" PointY="160.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TopologyCalendar" Width="1.5" PointX="17.75" PointY="89.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TopologyCalendarTopology" Width="1.5" PointX="20" PointY="109.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TopologyCategory" Width="1.5" PointX="10.5" PointY="165.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TopologyPeriod" Width="1.5" PointX="12.75" PointY="96.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TopologyVersion" Width="1.5" PointX="26.25" PointY="95" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ToponymType" Width="1.5" PointX="1.5" PointY="119.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.TransCityParameter" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Translation" Width="1.5" PointX="5.25" PointY="80.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Travel" Width="1.5" PointX="19.5" PointY="97.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Validation" Width="1.5" PointX="36.75" PointY="128.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ValidationRejectReason" Width="1.5" PointX="34.5" PointY="117.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ValidationStatus" Width="1.5" PointX="34.5" PointY="114" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ValidityType" Width="1.5" PointX="1.5" PointY="157.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.Vehicle" Width="1.5" PointX="15" PointY="162.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.VehicleType" Width="1.5" PointX="12.75" PointY="165.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.WeekDay" Width="1.5" PointX="1.5" PointY="176.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ZonalPrice" Width="1.5" PointX="26.25" PointY="89.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ZonalRestriction" Width="1.5" PointX="29.25" PointY="90.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ControlExportView" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.SaleExportView" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ScadaAlarms" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ScadaDevices" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ScadaOperators" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.ValidationExportView" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.VwAutomaticPayment" Width="1.5" PointX="6.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.VwTaciteReconduction" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.VwTitanRecettePayment" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.VwTitanRecetteSale" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyTicketingModel.VwVcub" Width="1.5" PointX="14.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerA__Categ__515C8D8C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerA__Categ__5250B1C5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerA__Addre__4E8020E1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Alarm__AlarmMess__4AAF8FFD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Alarm__AlarmStat__4BA3B436" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Alarm__CloseSess__4C97D86F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Alarm__OpenSessi__4D8BFCA8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AlarmMess__Alarm__47D32352" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AlarmMess__Alarm__48C7478B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AlarmMess__Devic__49BB6BC4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Annex__5D034A62" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AsyncTask__Error__3BD760C1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AsyncTask__Statu__3CCB84FA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AuditLogH__Devic__11AC1CCB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AuditLogH__Devic__12A04104" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AuditLogH__StopI__0936D25B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AuditLogH__Vehic__1394653D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__AuditLogH__Vehic__14888976" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BanknoteT__Bankn__73E6AFBA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BanknoteT__Payme__74DAD3F3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BlackList__AckDe__546E0461" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BlackList__Devic__56564CD3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BlackList__Reaso__574A710C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BlackList__Resto__583E9545" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__BlackList__Resto__5932B97E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CalendarI__Calen__5379E028" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TemporalR__Calen__519197B6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TimeRange__Calen__4EB52B0B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__CardStatus__36DDA17A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__CardTypeId__37D1C5B3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__CompanyId__38C5E9EC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__CustomerId__39BA0E25" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__DuplicataI__77A23205" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__DuplicataR__3BA25697" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__MediaTypeI__3C967AD0" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__ProviderId__3D8A9F09" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Card__StockEntit__3E7EC342" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardImage__CardI__3E49B918" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardProfi__CardI__4CCCE299" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__CardId__33CC2AA5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__CardId__412625C3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__CardI__06F9842E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__CardId__172FEBF7" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Operator__CardId__3F72E77B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order__CardId__48FC51B5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ProfileCa__CardI__461FE50A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SaleDetai__CardI__65989063" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardImage__Statu__4032018A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardImage__FareP__21436616" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__CardIma__421A49FC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardProfi__Custo__4DC106D2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardTypeM__CardT__34F55908" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__CardT__31E3E233" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Ticket__CardType__2F3C7FB2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CardTypeM__Media__35E97D41" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CashBox__DeviceT__446CA6C2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CoinTypeS__SaleI__045221AD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Company__Toponym__599CCDD2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CompanyBa__Compa__5B851644" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Context__Company__7A099D64" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__NetworkI__58739F6F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Line__CompanyId__5A90F20B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Operator__Compan__40670BB4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Product__Company__16A5DC12" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Vehicle__Company__5F55A728" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CompanyAd__Custo__296E97C3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CompanyPr__Custo__2C4B046E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Conta__2A77CA95" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Conta__2C601307" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Context__FareVer__7AFDC19D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Context__StatusI__7BF1E5D6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Context__Topolog__7CE60A0F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Context__Topolog__7DDA2E48" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Published__Curre__0822B291" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Published__Futur__0AFF1F3C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__Control__34C04EDE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__Control__35B47317" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__FareProductItem__22378A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__FareSto__379CBB89" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__FineId__3890DFC2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__Itinera__398503FB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__LineId__3A792834" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__Operato__3B6D4C6D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__Session__3C6170A6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Control__TicketI__3D5594DF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__Custom__483D37A6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__Gender__49315BDF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__Marita__4A258018" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__Prefer__4B19A451" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__School__4C0DC88A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__School__4D01ECC3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer__TitleI__4DF610FC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerA__Custo__4F74451A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerA__Custo__5344D5FE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerB__Custo__22D6A8CD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Custo__1FFA3C22" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Custo__21E28494" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Custo__2B6BEECE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Custo__2D543740" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerD__Custo__1E11F3B0" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerN__Custo__34E04A6F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__Benef__25B31578" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__Custo__18591A5A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__Custo__1A4162CC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__Payer__26A739B1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerR__Custo__157CADAF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerR__Custo__1670D1E8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__LegalEnt__577F7B36" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Custo__2FFB99C1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__Custome__4402926E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Operator__LegalE__424F5426" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order__CustomerI__49F075EE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Sale__CustomerId__76F8268F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Customer_Ord__Id__279B5DEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order__BillingAd__48082D7C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order__DeliveryA__4AE49A27" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerA__Topon__50686953" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__BankA__24BEF13F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__PaymentOr__Custo__23CACD06" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerC__Group__20EE605B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerD__Suppo__1F0617E9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerG__Group__24F3FB69" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerN__NoteT__33EC2636" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__Profe__1B358705" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerP__Profi__194D3E93" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__Custome__44F6B6A7" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__CustomerR__Relat__1764F621" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__Deposita__473404D4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__DeviceGr__54A30E8B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__DeviceSu__559732C4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__DeviceTy__568B56FD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__StationI__5967C3A8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Device__VehicleI__5A5BE7E1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DeviceCon__Devic__063A6A1F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ExportedF__Devic__0CE767AE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__AckDe__06055FF5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Devic__07EDA867" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Devic__0DA681BD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__AckDev__1547A385" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__Device__18241030" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyListE__Devic__1BF4A114" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyListE__Devic__1CE8C54D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Published__Devic__0916D6CA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Session__DeviceI__699E2B71" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__Devic__5C443053" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DeviceCon__Confi__0FC3D459" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DeviceCon__Param__10B7F892" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DeviceCon__Vehic__072E8E58" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Published__Devic__0A0AFB03" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_DeviceConfiguration_DeviceType" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DevicePar__Devic__4654EF34" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DevicePar__TypeI__4749136D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__DeviceSub__Devic__43788289" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Devic__2B36E4A4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Devic__294E9C32" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FunctionD__Devic__41903A17" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__HighCapac__Devic__409C15DE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorR__Devic__3DBFA933" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Vehicle__GroupId__5B3AFD81" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_EquipmentGroup_EquipmentGroupType" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ErrorDesc__Error__39EF184F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockImpo__Error__3806CFDD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ErrorDesc__Langu__3AE33C88" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Error__0E9AA5F6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyListE__Error__1DDCE986" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ExportedF__Publi__0DDB8BE7" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ExportedF__Vehic__0ECFB020" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Exter__5DF76E9B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__232BAE88" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__241FD2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__2513F6FA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__26081B33" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__26FC3F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__27F063A5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__28E487DE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__29D8AC17" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareP__2ACCD050" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FareV__5EEB92D4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Geogr__5FDFB70D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Month__60D3DB46" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Price__61C7FF7F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Produ__62BC23B8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Suppo__63B047F1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Tempo__64A46C2A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__FareP__2BC0F489" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__FarePr__2CB518C2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Incompati__FareP__2DA93CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Incompati__FareP__2E9D6134" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order_det__FareP__2F91856D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SaleDetai__FareP__3085A9A6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_InstallmentRenewed_FareProductItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_InstallmentRenewed_FareProductItem1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Langu__2F077588" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__FineR__285A77F9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Payme__26722F87" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Profi__2489E715" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareProdu__Reduc__22A19EA3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareStop__Statio__7ECE5281" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__Desti__057B5010" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__Desti__2AACD4BF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__Origi__07639882" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__Origi__2D89416A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__ViaId__094BE0F4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__ViaId__2E7D65A3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Stop__FareStopId__00B69AF3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FareVersi__Statu__7915792B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Incompati__FareV__14537F4C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_FareVersion_Tax" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ZonalPric__Desti__6AC759D4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ZonalPric__Origi__6BBB7E0D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ZonalPric__ViaId__6DA3C67F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ZonalRest__FareZ__26DC43DB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ImportedF__FileT__361E876B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__DeclaredAc__33621651" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__FineCancel__7E994857" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__FineReason__7F8D6C90" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__FineStatus__008190C9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__GeneralCon__0175B502" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__Identified__0269D93B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Fine__SaleId__035DFD74" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Regulariz__FineI__710A430F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FineActor__Addre__33421AC0" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FineActor__FineA__34363EF9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FineActor__Title__352A6332" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FineAddre__Topon__58A8A999" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__FunctionD__Funct__42845E50" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__Configu__430E6E35" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__ErrorTy__45EADAE0" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Gemalto__ExportS__46DEFF19" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Operator__Gender__415B2FED" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Provider__Gender__3159D24E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__Geogr__2BA0F8F8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ZonalRest__Geogr__27D06814" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Green__0F8ECA2F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Opera__09D5F0D9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Order__0ACA1512" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Profi__0BBE394B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__SaleD__0CB25D84" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreenList__Opera__1082EE68" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__Action__163BC7BE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__Operat__1A0C58A2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyList__Reason__1B007CDB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyListE__GreyL__1ED10DBF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyListE__Opera__1FC531F8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__GreyListE__Opera__20B95631" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Annex__75CEF82C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Insta__52DAC1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Insta__76C31C65" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Payme__77B7409E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__PlanS__78AB64D7" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__SaleD__799F8910" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_InstallmentRenewed_Installment" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_InstallmentRenewed_Installment1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Round__0D1C71D8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Annex__004C869F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Rejec__7B87D182" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Rejec__7C7BF5BB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__SaleD__7D7019F4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Statu__7E643E2D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Installme__Statu__7F586266" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Inventory__Produ__1A766CF6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Inventory__TypeI__1B6A912F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__InventoryIte__Id__1C5EB568" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__Inven__6108E570" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockItem__Inven__1D52D9A1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockMove__Inven__64D97654" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Itinerary__Itine__029EE365" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Itinerary__LineT__772D30B9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Travel__Itinerar__782154F2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Itinerary__StopI__0393079E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ProfileDe__Langu__21236A85" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Translati__Langu__1F3B2213" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__LineTopol__LineI__7450C40E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__LineI__066F7449" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__LineI__2C951D31" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__LineTopol__Topol__7544E847" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__LineTopol__Topol__76390C80" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__LineTopology__Id__6DE3BDA1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Location__Topony__57B48560" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__Locat__5D38548C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionMa__Maint__713F4D39" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Ticket__MediaTyp__3030A3EB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Operator__Operat__4343785F" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorO__Opera__51C6A1E0" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorS__Opera__4FDE596E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Regulariz__Opera__71FE6748" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Sale__OperatorId__77EC4AC8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Session__Operato__6A924FAA" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__Opera__5E2C78C5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorO__Opera__52BAC619" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorP__Opera__3EB3CD6C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorP__Opera__3FA7F1A5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OperatorS__Stati__50D27DA7" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order__StatusId__4BD8BE60" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order_det__Order__0234CF11" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order_det__Profi__0328F34A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order_det__Statu__041D1783" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Order_detail__Id__05113BBC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK_OrderDetail_Document_Order_detail" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OrderDetail___Id__38B0DB53" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__OriginDes__Price__0857BCBB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Payment__Payment__6E2DD664" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Payment__SaleDet__6F21FA9D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Payment__TicketP__70161ED6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Regulariz__Payme__72F28B81" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Product__PeriodT__179A004B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Profile__Validit__11E126F5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__PostPayme__PostP__6B5169B9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__PostPayme__PostP__6C458DF2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__PostPayme__SaleD__6D39B22B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__PostPayme__Confi__0F04BA4A" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Price__TaxId__623213D3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ZonalPric__Price__6CAFA246" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Product__Product__188E2484" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Product__Validit__198248BD" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Profile__Profile__10ED02BC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Profile__Validit__12D54B2E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ProfileCa__Profi__47140943" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__ProfileDe__Profi__22178EBE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Provider__Topony__324DF687" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockMove__Provi__65CD9A8D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Ticket__Provider__3124C824" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Published__Vehic__0BF34375" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Refund__SessionI__054645E6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Revenue__Revenue__0E109611" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Sale__SaleStatus__78E06F01" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Sale__SessionId__7AC8B773" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SaleDetai__SaleI__6780D8D5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TicketPre__SaleI__7BBCDBAC" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SaleDetai__TaxId__6874FD0E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SaleDetai__Ticke__69692147" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SaleDetai__Ticke__6A5D4580" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Session__Session__6B8673E3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Session__Session__6C7A981C" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionAc__Sessi__750FDE1D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionCa__Sessi__741BB9E4" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionHi__Sessi__732795AB" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionMa__Sessi__72337172" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionRe__Sessi__704B2900" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Validatio__Sessi__6E62E08E" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__SessionAc__Sessi__76040256" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Topology__Status__6E97EAB8" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TopologyV__Statu__66F6C8F0" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__Stock__6014C137" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__TypeI__5F209CFE" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockMove__FromS__63E5521B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockMove__ToSto__68AA0738" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEnti__Stock__61FD09A9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockEntityD__Id__62F12DE2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Ticket__StockEnt__3218EC5D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockImpo__Statu__38FAF416" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockMove__Stock__66C1BEC6" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__StockMove__Stock__67B5E2FF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TemporalR__TimeT__5285BBEF" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TicketPre__Ticke__7CB0FFE5" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TimeRange__TimeT__4FA94F44" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TimeRange__WeekD__509D737D" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Topology__Topolo__1AEB6E42" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TopologyC__Topol__562142A9" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TopologyC__Topol__571566E2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__TopologyC__Topol__58098B1B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__VehicleTy__Topol__1BDF927B" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Validatio__Failu__6D6EBC55" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Validatio__Valid__6F5704C7" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FK__Vehicle__Vehicle__6049CB61" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.AdditionalInformationCategoryValue" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FareZoneFareStop" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.FareZoneTopologyVersion" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.ProfileSupportDocument" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.StockMovementCard" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.StockMovementTicket" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.TopologyVehicle" ManuallyRouted="false" />
+        <AssociationConnector Association="MyTicketingModel.TopologyVersionTopology" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

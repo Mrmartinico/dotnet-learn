@@ -1,0 +1,9 @@
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\MyRepository.dll.config
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\MyRepository.dll
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\MyRepository.pdb
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\EntityFramework.dll
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\EntityFramework.xml
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\obj\Debug\MyRepository.dll
+C:\Users\MPAGNING\Downloads\Ex_Files_CSharp_Design_Patterns\Ex_Files_CSharp_Design_Patterns\Ch02\02_02\MyRepository\obj\Debug\MyRepository.pdb
